@@ -19,22 +19,22 @@ execution of the motor task.
 The repository contains all the Python code needed to process the data used, as well as its representation in various figures. A brief description of each python file is given below.
 
 ## Dat_files
-**average_transition** : lalala\
-**behaviors_and_candidates** : 
-**behaviors_function** :
-**duration_behaviors** :
-**duration_cycles** :
-**duration_experience** :
-**get_dat** :
-**get_files** :
-**get_image** :
-**image_function** :
-**interface** :
-**num_cycles** :
-**num_neurons** :
-**num_sessions** :
+**average_transition** : Compute the average transition matrix for each session\
+**behaviors_and_candidates** : Create illustration for behaviors determination\
+**behaviors_function** : All functions required for behaviors determination\
+**duration_behaviors** : Compute the mean duration of a behavior (inside a complete cycle or not)\
+**duration_cycles** : Compute the duration of an motor cycle \
+**duration_experience** : Extracts the mean duration of each session \
+**get_dat** : Extract all the .dat files for a given mouse \
+**get_files** : Store relevant files paths in .csv files\
+**get_image** : Produce the behavioral time fragmentation and transition matrices images\
+**image_function** : Functions needed for the transition matrix \
+**interface** : Code of the streamlit interface used to display .dat files and filter them\
+**num_cycles** : Compute the number of cycles, complete cycles and presses per action sequence\
+**num_neurons** : Number of neurons in each pathway per session \
+**num_sessions** : Number of training sessions for each FR protocol \
 **offset_percentile** :
-**quality_registration** :
+**quality_registration** : Illustrates the number of sessions in which a same neuron is detected\
 
 ## CaImAn
 
