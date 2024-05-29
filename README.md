@@ -19,7 +19,7 @@ execution of the motor task.
 The repository contains all the Python code needed to process the data used, as well as its representation in various figures. A brief description of each python file is given below.
 
 ## Dat_files
-
+**bold text** : lalala
 
 ## CaImAn
 
