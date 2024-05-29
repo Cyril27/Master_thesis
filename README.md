@@ -49,8 +49,8 @@ The repository contains all the Python code needed to process the data used, as 
 
 ### Centroids
 
-**find_centroids** : Extract centroid coordinates from its image in the FoV
-**plot_centroids** : Replace each detect centroid in the FoV
+**find_centroids** : Extract centroid coordinates from its image in the FoV\
+**plot_centroids** : Replace each detect centroid in the FoV\
 
 ### Clustering
 
@@ -62,28 +62,28 @@ The repository contains all the Python code needed to process the data used, as 
 
 ### Statitstical analysis
 
-**extended_csv** : Statistical analysis over original and additional neurons
+**extended_csv** : Statistical analysis over original and additional neurons\
 **plot_LMM_results** : 
-**prep_LMM_csv** : Prepare .csv file and apply LMM and ANOVA on it
+**prep_LMM_csv** : Prepare .csv file and apply LMM and ANOVA on it\
 **stat_plots** : 
 
 ## MLspike
 
 **compare_clusters** : 
 **compare_percentiles** : 
-**decon_spikes** : Compute the percentiles from spikes trains
+**decon_spikes** : Compute the percentiles from spikes trains\
 **find_new_candidates** : 
 
 ## Traces
 
-**compare_scores** : Compare traces clustering MLspike and CaImAn clusterings
-**temporal_corr** : Compute temporal correlation of instants and clusters instants based on it 
-**trace_percentile** : Compute the percentiles from calcium traces
+**compare_scores** : Compare traces clustering MLspike and CaImAn clusterings\
+**temporal_corr** : Compute temporal correlation of instants and clusters instants based on it \
+**trace_percentile** : Compute the percentiles from calcium traces\
 
 ## Populations
 
-**combined_svm** : Perform SVM on the clusters augmented by additional neurons
-**compare_pop** : Illustration differences in prediction quality and size amongst clusters
+**combined_svm** : Perform SVM on the clusters augmented by additional neurons\
+**compare_pop** : Illustration differences in prediction quality and size amongst clusters\
 **svm_stat** : 
 
 
