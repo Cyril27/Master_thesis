@@ -19,17 +19,71 @@ execution of the motor task.
 The repository contains all the Python code needed to process the data used, as well as its representation in various figures. A brief description of each python file is given below.
 
 ## Dat_files
-**bold text** : lalala
+**average_transition** : lalala
+**behaviors_and_candidates** : 
+**behaviors_function** :
+**duration_behaviors** :
+**duration_cycles** :
+**duration_experience** :
+**get_dat** :
+**get_files** :
+**get_image** :
+**image_function** :
+**interface** :
+**num_cycles** :
+**num_neurons** :
+**num_sessions** :
+**offset_percentile** :
+**quality_registration** :
 
 ## CaImAn
 
+### Behaviors determination
+
+**bfp** : 
+**frac_of_behav** : 
+**long_reg_8** : 
+**opti_similarities** : 
+**opti_similarities_combined** : 
+**percentile** : 
+
+### Centroids
+
+**find_centroids** : Extract centroid coordinates from its image in the FoV
+**plot_centroids** : Replace each detect centroid in the FoV
+
+### Clustering
+
+**all_clustering_methods** : Clusters pooled neurons with 9 different approaches
+
+### Files
+
+**get_sessions_files** : Extract different file paths for a given mouse at a given session
+
+### Statitstical analysis
+
+**extended_csv** : Statistical analysis over original and additional neurons
+**plot_LMM_results** : 
+**prep_LMM_csv** : Prepare .csv file and apply LMM and ANOVA on it
+**stat_plots** : 
 
 ## MLspike
 
+**compare_clusters** : 
+**compare_percentiles** : 
+**decon_spikes** : Compute the percentiles from spikes trains
+**find_new_candidates** : 
 
 ## Traces
 
+**compare_scores** : Compare traces clustering MLspike and CaImAn clusterings
+**temporal_corr** : Compute temporal correlation of instants and clusters instants based on it 
+**trace_percentile** : Compute the percentiles from calcium traces
 
 ## Populations
+
+**combined_svm** : Perform SVM on the clusters augmented by additional neurons
+**compare_pop** : Illustration differences in prediction quality and size amongst clusters
+**svm_stat** : 
 
 
