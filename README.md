@@ -19,7 +19,7 @@ execution of the motor task.
 The repository contains all the Python code needed to process the data used, as well as its representation in various figures. A brief description of each python file is given below.
 
 ## Dat_files
-**average_transition** : lalala
+**average_transition** : lalala\
 **behaviors_and_candidates** : 
 **behaviors_function** :
 **duration_behaviors** :
