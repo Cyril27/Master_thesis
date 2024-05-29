@@ -20,46 +20,46 @@ The repository contains all the Python code needed to process the data used, as 
 
 ## Dat_files
 **average_transition** : Compute the average transition matrix for each session\
-**behaviors_and_candidates** : Create illustration for behaviors determination\
+**behaviors_and_candidates** : Create illustrations for behaviors determination\
 **behaviors_function** : All functions required for behaviors determination\
 **duration_behaviors** : Compute the mean duration of a behavior (inside a complete cycle or not)\
-**duration_cycles** : Compute the duration of an motor cycle \
+**duration_cycles** : Compute the duration of a motor cycle \
 **duration_experience** : Extracts the mean duration of each session \
 **get_dat** : Extract all the .dat files for a given mouse \
 **get_files** : Store relevant files paths in .csv files\
 **get_image** : Produce the behavioral time fragmentation and transition matrices images\
 **image_function** : Functions needed for the transition matrix \
-**interface** : Code of the streamlit interface used to display .dat files and filter them\
+**interface** : Code of the Streamlit interface used to display .dat files and filter them\
 **num_cycles** : Compute the number of cycles, complete cycles and presses per action sequence\
 **num_neurons** : Number of neurons in each pathway per session \
 **num_sessions** : Number of training sessions for each FR protocol \
-**offset_percentile** : Extract the distrubtion of duration of a motor cycle \
+**offset_percentile** : Extract the distribution of duration of a motor cycle \
 **quality_registration** : Illustrates the number of sessions in which a same neuron is detected\
 
 ## CaImAn
 
-### Behaviors determination
+### <ins>Behaviors determination<ins>
 
-**frac_of_behav** : Extract the significance of pathway for a behavior for a session\
+**frac_of_behav** : Extract the significance of pathways for a behavior and a session\
 **long_reg_8** : Encode the percentiles results in categorization vectors\
 **opti_similarities** : Display the clustering results for a given mouse\
 **opti_similarities_combined** : Display the clustering results for the combined mice of the same pathway\
 **percentile** : Compute the percentiles from CaImAn spikes trains\
 
-### Centroids
+### <ins>Centroids<ins>
 
 **find_centroids** : Extract centroid coordinates from its image in the FoV\
 **plot_centroids** : Replace each detect centroid in the FoV\
 
-### Clustering
+### <ins>Clustering<ins>
 
 **all_clustering_methods** : Clusters pooled neurons with 9 different approaches
 
-### Files
+### F<ins>iles<ins>
 
 **get_sessions_files** : Extract different file paths for a given mouse at a given session
 
-### Statitstical analysis
+### <ins>Statistical analysis<ins>
 
 **extended_csv** : Statistical analysis over original and additional neurons\
 **prep_LMM_csv** : Prepare .csv file and apply LMM and ANOVA on it\
@@ -74,7 +74,7 @@ The repository contains all the Python code needed to process the data used, as 
 
 ## Traces
 
-**compare_scores** : Compare traces clustering MLspike and CaImAn clusterings\
+**compare_scores** : Compare traces clustering with MLspike and CaImAn clusterings\
 **temporal_corr** : Compute temporal correlation of instants and clusters instants based on it \
 **trace_percentile** : Compute the percentiles from calcium traces\
 
