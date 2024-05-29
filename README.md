@@ -46,20 +46,20 @@ The repository contains all the Python code needed to process the data used, as 
 **opti_similarities_combined** : Display the clustering results for the combined mice of the same pathway\
 **percentile** : Compute the percentiles from CaImAn spikes trains\
 
-### <ins>Centroids<ins>
+<ins>Centroids<ins>
 
 **find_centroids** : Extract centroid coordinates from its image in the FoV\
 **plot_centroids** : Replace each detect centroid in the FoV\
 
-### <ins>Clustering<ins>
+<ins>Clustering<ins>
 
 **all_clustering_methods** : Clusters pooled neurons with 9 different approaches
 
-### F<ins>iles<ins>
+<ins>Files<ins>
 
 **get_sessions_files** : Extract different file paths for a given mouse at a given session
 
-### <ins>Statistical analysis<ins>
+<ins>Statistical analysis<ins>
 
 **extended_csv** : Statistical analysis over original and additional neurons\
 **prep_LMM_csv** : Prepare .csv file and apply LMM and ANOVA on it\
