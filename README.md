@@ -38,7 +38,7 @@ The repository contains all the Python code needed to process the data used, as 
 
 ## CaImAn
 
-### <ins>Behaviors determination<ins>
+<ins>Behaviors determination<ins>
 
 **frac_of_behav** : Extract the significance of pathways for a behavior and a session\
 **long_reg_8** : Encode the percentiles results in categorization vectors\
