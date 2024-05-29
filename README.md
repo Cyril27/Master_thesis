@@ -15,12 +15,8 @@ combination enables motor learning and thus the optimal choice of behaviors to a
 execution of the motor task.
 
 
-
-
 # Repository structure
-
-
-
+The repository contains all the Python code needed to process the data used, as well as its representation in various figures. A brief description of each python file is given below.
 
 ## Dat_files
 
