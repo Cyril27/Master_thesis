@@ -33,19 +33,18 @@ The repository contains all the Python code needed to process the data used, as 
 **num_cycles** : Compute the number of cycles, complete cycles and presses per action sequence\
 **num_neurons** : Number of neurons in each pathway per session \
 **num_sessions** : Number of training sessions for each FR protocol \
-**offset_percentile** :
+**offset_percentile** : Extract the distrubtion of duration of a motor cycle \
 **quality_registration** : Illustrates the number of sessions in which a same neuron is detected\
 
 ## CaImAn
 
 ### Behaviors determination
 
-**bfp** : 
-**frac_of_behav** : 
-**long_reg_8** : 
-**opti_similarities** : 
-**opti_similarities_combined** : 
-**percentile** : 
+**frac_of_behav** : Extract the significance of pathway for a behavior for a session\
+**long_reg_8** : Encode the percentiles results in categorization vectors\
+**opti_similarities** : Display the clustering results for a given mouse\
+**opti_similarities_combined** : Display the clustering results for the combined mice of the same pathway\
+**percentile** : Compute the percentiles from CaImAn spikes trains\
 
 ### Centroids
 
@@ -63,16 +62,15 @@ The repository contains all the Python code needed to process the data used, as 
 ### Statitstical analysis
 
 **extended_csv** : Statistical analysis over original and additional neurons\
-**plot_LMM_results** : 
 **prep_LMM_csv** : Prepare .csv file and apply LMM and ANOVA on it\
-**stat_plots** : 
+**stat_plots** : Statistical analysis over original and additional neurons\
 
 ## MLspike
 
-**compare_clusters** : 
-**compare_percentiles** : 
-**decon_spikes** : Compute the percentiles from spikes trains\
-**find_new_candidates** : 
+**compare_clusters** : Compare clusterings using different metrics \
+**compare_percentiles** : Compare percentiles values for a given behavior and session \
+**decon_spikes** : Compute the percentiles from MLspike spikes trains\
+**find_new_candidates** : Find for each additional neuron the closests cluster at a given session
 
 ## Traces
 
@@ -83,7 +81,6 @@ The repository contains all the Python code needed to process the data used, as 
 ## Populations
 
 **combined_svm** : Perform SVM on the clusters augmented by additional neurons\
-**compare_pop** : Illustration differences in prediction quality and size amongst clusters\
-**svm_stat** : 
+**compare_pop** : Illustrates differences in prediction quality and size amongst clusters\
 
 
